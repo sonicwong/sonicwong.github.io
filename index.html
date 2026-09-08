@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>小遊戲‧網頁系統開發 | Sonic Wong (Hong Kong Freelance Programmer)</title>
+    <meta name="description" content="香港資深 Freelance Programmer Sonic Wong，超過 20 年程式開發經驗。專精 HTML5 網頁互動小遊戲開發、Event 宣傳遊戲、客製化 Web 系統、Admin Panel 及 API 對接，專為 Agency 及企業提供穩定 Programming 支援。">
+    <meta name="keywords" content="小遊戲製作, 網頁小遊戲, HTML5遊戲開發, Event遊戲, Freelance Programmer 香港, Web 系統開發, Angular, Node.js, AWS 雲端">
+    <meta name="author" content="Sonic Wong">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-emerald-500 selection:text-slate-900">
+
+    <!-- 導航欄 Nav -->
+    <nav class="sticky top-0 z-50 backdrop-blur-md bg-slate-900/80 border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="font-bold text-xl tracking-tight bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">Sonic Wong</span>
+            <div class="space-x-6 text-sm font-medium text-slate-400 hidden md:block">
+                <a href="#about" class="hover:text-emerald-400 transition">關於我</a>
+                <a href="#services" class="hover:text-emerald-400 transition">服務</a>
+                <a href="#skills" class="hover:text-emerald-400 transition">Tech Stack</a>
+                <a href="#event-partner" class="hover:text-emerald-400 transition">Event 公司合作</a>
+                <a href="#portfolio" class="hover:text-emerald-400 transition">作品</a>
+                <a href="#contact" class="bg-emerald-500 text-slate-950 px-4 py-2 rounded-full hover:bg-emerald-400 transition">聯絡我</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄首頁 Hero Section -->
+    <section id="about" class="max-w-5xl mx-auto px-6 pt-20 pb-16 flex flex-col items-center text-center">
+        <div class="inline-flex items-center gap-2 bg-emerald-500/10 text-emerald-400 px-4 py-1.5 rounded-full text-sm font-semibold mb-6 border border-emerald-500/20">
+            🇭🇰 Hong Kong 香港 ‧ System Analyst
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight max-w-3xl leading-tight">
+            專注程式開發<br class="hidden md:inline">
+            <span class="bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent">互動小遊戲 ‧ Web 系統開發</span>
+        </h1>
+        <p class="mt-6 text-lg text-slate-400 max-w-2xl leading-relaxed">
+            擁有超過 20 年遊戲及系統編程經驗，專門負責程式開發部分。無論是 Event 宣傳用的互動小遊戲，還是穩健的企業級雲端網頁系統，都能為你高質、快速完成開發。
+        </p>
+        <div class="mt-10 flex flex-wrap justify-center gap-4">
+            <a href="#event-partner" class="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white px-6 py-3 rounded-xl font-medium transition shadow-lg">
+                Agency 合作方案
+            </a>
+            <a href="#contact" class="bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 px-6 py-3 rounded-xl font-bold transition shadow-lg shadow-emerald-500/10">
+                馬上查詢
+            </a>
+        </div>
+    </section>
+
+    <!-- 服務範疇 Services Section -->
+    <section id="services" class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-800">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold tracking-tight">服務</h2>
+            <p class="text-slate-400 mt-2">專攻 Coding 與技術實作，完美接應你或貴司 UI/UX 設計師的 Draft / Design 圖</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-gradient-to-b from-slate-800/80 to-slate-800/20 p-6 rounded-2xl border border-emerald-500/30 relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-emerald-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-bl-lg">主打服務</div>
+                <div class="text-3xl mb-4">🎮</div>
+                <h3 class="font-bold text-xl mb-2 text-emerald-400">互動小遊戲</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                    專為品牌推廣、線下 Event、線上 Marketing 設計的互動遊戲。支援 cross-platform 流暢運行、即時抽獎、Leaderboard 榜單與 Social Media 分享。
+                </p>
+            </div>
+            <div class="bg-slate-800/20 p-6 rounded-2xl border border-slate-800/80">
+                <div class="text-3xl mb-4">💻</div>
+                <h3 class="font-bold text-xl mb-2 text-white">網頁系統開發 (Web App)</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Custom-made Web 應用系統、後台管理 Portal (Admin Panel)、API 對接、雲端 Database 架構，注重 Performance 與資料安全。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技術 Stack 與實作能力 Tech Stack Section -->
+    <section id="skills" class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-800">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold tracking-tight">Tech Stack 與實作能力</h2>
+            <p class="text-slate-400 mt-2">靈活運用主流與穩健技術，滿足不同 Project 的開發需求</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- 前端與互動開發 -->
+            <div class="bg-slate-800/30 p-6 rounded-2xl border border-slate-800">
+                <h3 class="text-lg font-bold text-emerald-400 mb-3 flex items-center gap-2">
+                    <span>✨</span> Frontend、小遊戲 & 跨平台
+                </h3>
+                <p class="text-slate-400 text-xs mb-4">流暢 Animation、Responsive UI (響應式介面) 與 Mobile App 開發</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">Phaser 遊戲引擎</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">HTML5 / CSS3</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">JavaScript (ES6+)</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">TypeScript</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">Angular</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">Ionic (Hybrid App)</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">Electron 跨平台應用</span>
+                </div>
+            </div>
+
+            <!-- 後端與 Database -->
+            <div class="bg-slate-800/30 p-6 rounded-2xl border border-slate-800">
+                <h3 class="text-lg font-bold text-cyan-400 mb-3 flex items-center gap-2">
+                    <span>⚙️</span> Backend API, Database, 第三方 API 對接
+                </h3>
+                <p class="text-slate-400 text-xs mb-4">提供高安全性、穩定對接與高效能資料處理</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">Node.js + Express</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">Sequelize ORM</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">RESTful API 設計</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">PHP + CodeIgniter MVC</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">PayPal Braintree</span>
+                </div>
+            </div>
+
+            <!-- 雲端與自動化 -->
+            <div class="bg-slate-800/30 p-6 rounded-2xl border border-slate-800">
+                <h3 class="text-lg font-bold text-teal-400 mb-3 flex items-center gap-2">
+                    <span>☁️</span> 雲端 Deployment &amp; 自動化
+                </h3>
+                <p class="text-slate-400 text-xs mb-4">支援 Event 高流量應變與數據抓取自動化</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">AWS 雲端服務管理</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">Firebase</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">自動化 Data Scraping</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">Telegram / Whatsapp Bot</span>
+                </div>
+            </div>
+
+            <!-- 設計與工作流對接 -->
+            <div class="bg-slate-800/30 p-6 rounded-2xl border border-slate-800">
+                <h3 class="text-lg font-bold text-indigo-400 mb-3 flex items-center gap-2">
+                    <span>🎨</span> Design 對接
+                </h3>
+                <p class="text-slate-400 text-xs mb-4">無縫對接 Agency 設計師圖稿，確保跟足 Design 出 Code</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">Adobe CC 檔案處理</span>
+                    <span class="bg-slate-800 border border-slate-700 text-slate-200 text-xs px-3 py-1 rounded-md">UI/UX Layout 實作</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event 公司 & Agency 合作區塊 -->
+    <section id="event-partner" class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-800">
+        <div class="bg-slate-800/40 border border-emerald-500/20 rounded-3xl p-8 md:p-12 relative overflow-hidden">
+            <div class="max-w-2xl">
+                <span class="text-xs font-bold tracking-widest text-emerald-400 uppercase bg-emerald-400/10 px-3 py-1 rounded-full">Agency &amp; Event Partner</span>
+                <h2 class="text-2xl md:text-3xl font-bold mt-4">專門做 Programming，尋找廣告公司合作</h2>
+                <p class="text-slate-300 mt-4 text-sm md:text-base leading-relaxed">
+                    你知道客戶想要什麼互動效果，但缺乏專職的 Programmer？我可以作為你最穩健的技術後盾：
+                </p>
+                <ul class="mt-6 space-y-3 text-sm text-slate-300">
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-400">✓</span>
+                        <span><strong>分工明確：</strong>你負責 Design &amp; Creative，我負責完整的 Coding &amp; Logic 實作。</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-400">✓</span>
+                        <span><strong>配合度高：</strong>適應 Event 急單，交貨準時。</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-400">✓</span>
+                        <span><strong>線上/線下支援：</strong>支援 PC Kiosk / 手機 / 平板電腦現場體驗、QR Code 掃碼互動等功能。</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 精選作品 Portfolio Section -->
+    <section id="portfolio" class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-800">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold tracking-tight">作品</h2>
+            <p class="text-slate-400 mt-2">我參與開發的遊戲與網頁系統案例</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="group bg-slate-800/40 border border-slate-800 rounded-2xl p-6 hover:border-emerald-500/40 transition duration-300">
+                <div class="flex justify-between items-start mb-4">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-cyan-400 bg-cyan-400/10 px-2.5 py-1 rounded">Game</span>
+                </div>
+                <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition">收集 QR Code 遊戲</h3>
+                <p class="text-slate-400 mt-2 text-sm leading-relaxed">以互動遊戲方式，讓同學收集 QR Code 的同時認識校園每個設施的位置。</p>
+                <div class="mt-6">
+                    <a href="https://collect-qr.web.app/img/all_qr.jpg" target="_blank" class="inline-flex items-center gap-1 text-sm font-semibold text-cyan-400 hover:text-cyan-300 transition">
+                        QR Code 列表
+                    </a>
+                    &nbsp;|&nbsp;
+                    <a href="https://collect-qr.web.app" target="_blank" class="inline-flex items-center gap-1 text-sm font-semibold text-cyan-400 hover:text-cyan-300 transition">
+                        遊戲主頁 <span>&rarr;</span>
+                    </a>
+                </div>
+            </div>
+            <div class="group bg-slate-800/40 border border-slate-800 rounded-2xl p-6 hover:border-emerald-500/40 transition duration-300">
+                <div class="flex justify-between items-start mb-4">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-cyan-400 bg-cyan-400/10 px-2.5 py-1 rounded">Game</span>
+                </div>
+                <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition">曾參與製作的遊戲</h3>
+                <p class="text-slate-400 mt-2 text-sm leading-relaxed">智能家電小遊戲、垃圾分類；抽獎活動，推廣手機品牌的砌圖、估手機、找 Logo、拼字；推廣啤酒品牌的卡牌配對、接禮物以及互動教學。</p>
+                <div class="mt-6">
+                    <a href="https://drive.google.com/file/d/1OpJJraTSVh5DIdZeHrL7625Gt7H9STbQ/view?usp=sharing" target="_blank" class="inline-flex items-center gap-1 text-sm font-semibold text-cyan-400 hover:text-cyan-300 transition">
+                        PDF <span>&rarr;</span>
+                    </a>
+                </div>
+            </div>
+            <div class="group bg-slate-800/40 border border-slate-800 rounded-2xl p-6 hover:border-emerald-500/40 transition duration-300">
+                <div class="flex justify-between items-start mb-4">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2.5 py-1 rounded">Web App</span>
+                </div>
+                <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition">曾參與製作的網站系統</h3>
+                <p class="text-slate-400 mt-2 text-sm leading-relaxed">外送落單物流 App + 後台管理平台；網上訂購網站；電子卡系統；酒店訂房與第三方 API 對接；教育機構課程資料管理系統；產品資料網站。</p>
+                <div class="mt-6">
+                    <a href="https://drive.google.com/file/d/1a1YdJ7clzm1Ck9g6NUH5hSdWjnFdi-c-/view?usp=sharing" target="_blank" class="inline-flex items-center gap-1 text-sm font-semibold text-cyan-400 hover:text-cyan-300 transition">
+                        PDF <span>&rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 聯絡 Contact Section -->
+    <section id="contact" class="max-w-5xl mx-auto px-6 py-20 border-t border-slate-800 text-center">
+        <h2 class="text-3xl font-bold tracking-tight">有遊戲或系統開發需求？</h2>
+        <p class="text-slate-400 mt-3 max-w-md mx-auto text-sm">歡迎隨時 Email 查詢或報價，附上流程資料，我會盡快與你聯絡。</p>
+        <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4 text-sm font-medium">
+            <a href="mailto:sonicwong@gmail.com" class="bg-slate-800 border border-slate-700 px-6 py-3 rounded-xl hover:bg-slate-700 transition">
+                📧 sonicwong@gmail.com
+            </a>
+        </div>
+    </section>
+
+    <!-- 頁腳 Footer -->
+    <footer class="max-w-5xl mx-auto px-6 py-8 border-t border-slate-800 text-center text-xs text-slate-600">
+        &copy; Sonic Wong. All rights reserved. Powered by Tailwind CSS.
+    </footer>
+
+</body>
+</html>
